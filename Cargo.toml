@@ -1,0 +1,9 @@
+[package]
+name = "fizz-buzz-golf"
+version = "1.0.0"
+edition = "2021"
+
+# lints from clippy
+[lints.clippy]
+pedantic = "warn" # lints that are more pedantic
+nursery = "warn"  # lints that are not yet in stable clippy
